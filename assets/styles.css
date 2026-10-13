@@ -351,3 +351,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:#aaa19c}.footer-gri
   .hero:before,.hero:after,.hero h1,.hero .eyebrow,.hero p,.hero .actions,.hero .proof,.hero h1 span{animation:none!important}
   .section-title,.cta h2,.portrait-card,.card,.gitem,.video-card,.step,.metric,.member,.partners-grid img,.btn{transition:none!important}
 }
+
+/* Member portraits */
+.member .avatar.member-photo{width:clamp(96px,10vw,140px);height:clamp(96px,10vw,140px);overflow:hidden;background:#f5efea}
+.member .avatar.member-photo img{display:block;object-position:center 30%}
