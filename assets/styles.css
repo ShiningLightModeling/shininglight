@@ -396,4 +396,4 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:#aaa19c}.footer-gri
 .designers-group .partners-grid{margin-top:28px}
 
 /* Match ProMedBuildTech to the existing landscape partner cards. */
-.partners-grid img[src$="/promedbuildtech.jpg"]{aspect-ratio:3/2;object-fit:contain;background:#fff;padding:16px;box-sizing:border-box}
+.partners-grid img[src$="/promedbuildtech.jpg"]{aspect-ratio:3/2;height:auto;object-fit:contain;background:#fff;padding:0;box-sizing:border-box}
