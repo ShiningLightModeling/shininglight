@@ -355,3 +355,15 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:#aaa19c}.footer-gri
 /* Member portraits */
 .member .avatar.member-photo{width:clamp(96px,10vw,140px);height:clamp(96px,10vw,140px);overflow:hidden;background:#f5efea}
 .member .avatar.member-photo img{display:block;object-position:center 30%}
+
+/* Mobile hero framing: keep the pink and magenta runway models visible. */
+@media(max-width:900px){
+  .hero:before{
+    background-image:linear-gradient(180deg,rgba(9,9,9,.12) 0%,rgba(9,9,9,.2) 320px,#090909 550px),url("hero-claire.jpg");
+    background-position:center,86% 72px;
+    background-size:100% 100%,auto 480px;
+    background-repeat:no-repeat;
+    animation:none;
+    transform:none;
+  }
+}
