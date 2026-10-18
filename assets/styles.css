@@ -397,3 +397,6 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:#aaa19c}.footer-gri
 
 /* Match ProMedBuildTech to the existing landscape partner cards. */
 .partners-grid img[src$="/promedbuildtech.jpg"]{aspect-ratio:3/2;height:auto;object-fit:contain;background:#fff;padding:0;box-sizing:border-box}
+
+/* Closer framing for Claire’s team portrait. */
+.member .avatar.member-photo img[src$="/claire-simada-aeschimann.jpg"]{transform:scale(1.25);transform-origin:center 30%}
