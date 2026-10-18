@@ -400,3 +400,6 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:#aaa19c}.footer-gri
 
 /* Closer framing for Claire’s team portrait. */
 .member .avatar.member-photo img[src$="/claire-simada-aeschimann.jpg"]{transform:scale(1.25);transform-origin:center 30%}
+
+/* Closer framing for Thione’s team portrait. */
+.member .avatar.member-photo img[src$="/thione-seck.jpg"]{transform:scale(1.2);transform-origin:center 25%;object-position:center 25%}
